@@ -33,7 +33,7 @@ void checkWord(std::string guess[], std::string ans[], int size)
             std::cout << YELLOW << guess[i];
         }else if (guess[i] != ans[i] && check != true)
         {   
-            std::cout << RED << "_";
+            std::cout << RED << guess[i];
         }
     }
 }
